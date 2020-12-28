@@ -1,0 +1,27 @@
+
+Column{
+  id: "column02",
+  width: 100,
+  height: "auto",
+  y: 0,
+  left: 10,
+  right: 10,
+  child: [
+    Object{
+      id: "chatmessagecolumn01",
+      width: 100,
+      height: 80,
+      y: 0,
+      name: "ChatMessage",
+      left: 0,
+      right: 0,
+      modelFor: "<#apiContent#>",
+      bind_senderName: "<#object.name#>",
+      bind_desc: "<#object.message#>",
+      bind_tof: "<#'https://picsum.photos/200/300?random=' + pos#>",
+      modelForConfig: "<#(object, pos)#>",
+      bind_numberNewMessage: "<#object.newMessage#>",
+      bind_time: "<#object.lastTime#>"
+    }
+  ]
+},

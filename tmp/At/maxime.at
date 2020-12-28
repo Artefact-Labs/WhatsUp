@@ -1,0 +1,49 @@
+
+Rectangle{
+  id: "rectangle0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  color: "<#color#>",
+  border: 5,
+  radius: 8,
+  child: [
+    Text{
+      id: "textrectangle01",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      value: "<#counter#>",
+      horizontalAlign: "center",
+      verticalAlign: "center",
+      color: "#fff",
+      fontSize: 30,
+      fontFamily: "Ink Free",
+      bold: true,
+      italic: true,
+      underline: true
+    },
+    MouseArea{
+      id: "mousearearectangle03",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      onClicked: "<#manouDoSomething#>"
+    }
+  ]
+},

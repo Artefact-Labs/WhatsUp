@@ -1,0 +1,107 @@
+
+Rectangle{
+  id: "rectangle0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  color: "#000",
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    Column{
+      id: "columnrectangle01",
+      width: 100,
+      height: 177,
+      left: 0,
+      bottom: 30,
+      right: 0,
+      child: [
+        ScrollArea{
+          id: "scrollareacolumnrectangle011",
+          width: 100,
+          height: 80,
+          y: 0,
+          left: 0,
+          right: 0,
+          color: "transparent",
+          child: [
+            Row{
+              id: "rowscrollareacolumnrectangle0112",
+              width: "auto",
+              height: 100,
+              x: 0,
+              y: 0,
+              child: [
+                NetworkImage{
+                  id: "networkimagescrollareacolumnrectangle0111",
+                  width: 80,
+                  height: 80,
+                  x: 0,
+                  y: 0,
+                  source: "<#'https://picsum.photos/200?random=' + index#>",
+                  modelFor: "<#50#>"
+                }
+              ]
+            }
+          ],
+          overflowX: "scroll",
+          overflowY: "hidden"
+        },
+        Row{
+          id: "rowcolumnrectangle013",
+          width: 100,
+          height: 100,
+          y: 0,
+          left: 30,
+          right: 30,
+          child: [
+            Button{
+              id: "buttonrowcolumnrectangle0131",
+              width: 60,
+              height: 60,
+              x: 0,
+              fab: true,
+              flat: true,
+              verticalCenter: 0,
+              onlyIcon: true,
+              dark: true,
+              icon: "ion-md-flash-off",
+              color: "#fff",
+              fontSize: 30
+            },
+            Rectangle{
+              id: "rectanglerowcolumnrectangle0133",
+              width: 70,
+              height: 70,
+              x: 0,
+              verticalCenter: 0,
+              color: "transparent",
+              border: 2,
+              borderColor: "#fff",
+              radius: 35
+            },
+            Button{
+              id: "buttonrowcolumnrectangle01313",
+              width: 60,
+              height: 60,
+              x: 0,
+              fab: true,
+              flat: true,
+              verticalCenter: 0,
+              onlyIcon: true,
+              dark: true,
+              icon: "ion-ios-reverse-camera",
+              color: "#fff",
+              fontSize: 30
+            }
+          ],
+          spacing: "space-between"
+        }
+      ],
+      y: 433
+    }
+  ]
+},

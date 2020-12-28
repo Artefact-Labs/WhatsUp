@@ -1,0 +1,12 @@
+Data apiContent = [
+	{name: "dannick", message: "yo..", newMessage: 10, lastTime: '14:22'},
+	{name: "Maxime", message: "Ao bao? Ca dit quoi...", newMessage: 0, lastTime: '13:00'},
+	{name: "Franck", message: "C' est vreiment super..", newMessage: 5, lastTime: '12:15'},
+	{name: "Manou", message: "Ok", newMessage: 0, lastTime: '12:10'},
+	{name: "Willy", message: "Ewééééé´...", newMessage: 0, lastTime: '11:45'},
+	{name: "Duran", message: "En vrai...", newMessage: 0, lastTime: '11:27'},
+	{name: "TonTonBig", message: "Tu as vue la video...", newMessage: 0, lastTime: '10:22'},
+	{name: "Mougou1", message: "yo..", newMessage: 100, lastTime: '10:17'},
+	{name: "Mougou2", message: "yo..", newMessage: 200, lastTime: '09:16'},
+	{name: "Mougou3", message: "yo..", newMessage: 300, lastTime: '09:15'},
+	]

@@ -1,0 +1,22 @@
+
+ApplicationWindow{ 
+  id: "appli",
+  width: 605,
+  height: 539,
+  x: 0,
+  y: 0,
+  child: [
+    Object{
+      id: "appappli1",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      name: "App",
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0
+    }
+  ]
+},

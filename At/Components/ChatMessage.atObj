@@ -1,0 +1,9 @@
+Property senderName = "Diver Kamer Informatik"
+	Property desc = "MaximeMbeng: L eau lave et laen ..."
+	Property tof = "https://picsum.photos/200/300?random=1"
+	Property time = "17:54"
+	Property numberNewMessage = 0
+	
+	Computed timeColor () { 
+return (this.numberNewMessage > 0? '#53e832' : '#000')
+}

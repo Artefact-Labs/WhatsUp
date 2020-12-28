@@ -1,0 +1,145 @@
+
+Item{
+  id: "item0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  child: [
+    Row{
+      id: "row0",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 40,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      child: [
+        NetworkImage{
+          id: "networkimagerow01",
+          width: 60,
+          height: 60,
+          x: 0,
+          source: "<#tof#>",
+          radius: 35,
+          verticalCenter: 0
+        },
+        Item{
+          id: "itemrow05",
+          width: 10,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0
+        },
+        Column{
+          id: "columnrow03",
+          width: "auto",
+          height: 40,
+          x: 0,
+          child: [
+            Text{
+              id: "textcolumnrow031",
+              width: "auto",
+              height: "auto",
+              y: 0,
+              value: "<#senderName#>",
+              bold: true,
+              fontSize: 15
+            },
+            Text{
+              id: "textcolumnrow033",
+              width: "auto",
+              height: "auto",
+              x: 0,
+              y: 0,
+              value: "<#desc#>"
+            }
+          ],
+          spacing: "space-between",
+          verticalCenter: 0
+        }
+      ]
+    },
+    Column{
+      id: "columnitem06",
+      width: "auto",
+      height: "auto",
+      x: 0,
+      child: [
+        Text{
+          id: "textcolumnrow0333",
+          width: "auto",
+          height: "auto",
+          y: 10,
+          value: "<#time#>",
+          fontSize: 14,
+          color: "<#timeColor#>"
+        },
+        Rectangle{
+          id: "rectanglecolumnitem063",
+          width: 20,
+          height: 20,
+          y: 0,
+          color: "#53e832",
+          radius: 10,
+          modelIf: "<#numberNewMessage > 0#>",
+          child: [
+            Text{
+              id: "textrectanglecolumnitem0631",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              horizontalAlign: "center",
+              verticalAlign: "center",
+              value: "<#numberNewMessage#>",
+              color: "#fff",
+              fontSize: 10,
+              bold: true,
+              textO: true,
+              textOverflow: "ellipsis"
+            }
+          ],
+          horizontalCenter: 0
+        }
+      ],
+      right: 10,
+      top: 10,
+      bottom: 10,
+      spacing: "space-between"
+    },
+    Rectangle{
+      id: "rectangleitem03",
+      width: 100,
+      height: 1,
+      left: 70,
+      right: 10,
+      bottom: 0,
+      color: "#d3d3d3"
+    },
+    MouseArea{
+      id: "mouseareaitem07",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      ripple: true,
+      cursor: "pointer"
+    }
+  ],
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0
+},

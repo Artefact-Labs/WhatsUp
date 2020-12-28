@@ -1,0 +1,336 @@
+{
+  "type": "folder",
+  "pjType": "pc - software",
+  "name": "WhatsUp",
+  "iconA": "folderA",
+  "version": "0.0.1",
+  "description": "A simple clone of WatsApp",
+  "author": "Artefact-Team",
+  "child": [
+    {
+      "type": "folder",
+      "name": "At",
+      "iconA": "folderB",
+      "col": "#F9B31E",
+      "child": [
+        {
+          "type": "file",
+          "name": "main.at",
+          "iconA": "at"
+        },
+        {
+          "type": "file",
+          "name": "App.at",
+          "iconA": "at"
+        },
+        {
+          "type": "file",
+          "name": "Page1.at",
+          "iconA": "at"
+        },
+        {
+          "type": "file",
+          "name": "Page2.at",
+          "iconA": "at"
+        },
+        {
+          "type": "file",
+          "name": "Page3.at",
+          "iconA": "at"
+        },
+        {
+          "type": "file",
+          "name": "Page4.at",
+          "iconA": "at"
+        },
+        {
+          "type": "folder",
+          "name": "Components",
+          "iconA": "folderC",
+          "col": "pink",
+          "child": [
+            {
+              "type": "file",
+              "name": "ChatMessage.at",
+              "iconA": "at"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Js",
+      "iconA": "folderB",
+      "child": [
+        {
+          "type": "file",
+          "name": "main.js",
+          "iconA": "js"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Style",
+      "iconA": "folderB",
+      "child": [
+        {
+          "type": "file",
+          "name": "main.css",
+          "iconA": "css"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Resources",
+      "iconA": "folderC",
+      "col": "pink",
+      "child": []
+    },
+    {
+      "type": "folder",
+      "name": "Structure",
+      "iconA": "folderD",
+      "col": "green",
+      "deco": "pjStruc",
+      "child": [
+        {
+          "type": "file",
+          "name": "Router.art",
+          "child": []
+        },
+        {
+          "type": "file",
+          "name": "Store.as",
+          "child": []
+        },
+        {
+          "type": "file",
+          "name": "Adder.aat",
+          "child": []
+        },
+        {
+          "type": "file",
+          "name": "Packager.apm",
+          "child": []
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Version",
+      "iconA": "folderD",
+      "deco": "version",
+      "child": [
+        {
+          "type": "folder",
+          "name": "Windows",
+          "iconA": "folderE",
+          "deco": "windowsOS",
+          "child": [
+            {
+              "type": "folder",
+              "name": "At",
+              "iconA": "folderB",
+              "col": "#F9B31E",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Js",
+              "iconA": "folderB",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Style",
+              "iconA": "folderB",
+              "child": []
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Ubuntu",
+          "iconA": "folderE",
+          "deco": "ubuntuOs",
+          "child": [
+            {
+              "type": "folder",
+              "name": "At",
+              "iconA": "folderB",
+              "col": "#F9B31E",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Js",
+              "iconA": "folderB",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Style",
+              "iconA": "folderB",
+              "child": []
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "MacOs",
+          "iconA": "folderE",
+          "deco": "appelOS",
+          "child": [
+            {
+              "type": "folder",
+              "name": "At",
+              "iconA": "folderB",
+              "col": "#F9B31E",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Js",
+              "iconA": "folderB",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Style",
+              "iconA": "folderB",
+              "child": []
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Android",
+          "iconA": "folderE",
+          "deco": "androidOS",
+          "child": [
+            {
+              "type": "folder",
+              "name": "At",
+              "iconA": "folderB",
+              "col": "#F9B31E",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Js",
+              "iconA": "folderB",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Style",
+              "iconA": "folderB",
+              "child": []
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "i-Phone",
+          "iconA": "folderE",
+          "deco": "ios",
+          "child": [
+            {
+              "type": "folder",
+              "name": "At",
+              "iconA": "folderB",
+              "col": "#F9B31E",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Js",
+              "iconA": "folderB",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Style",
+              "iconA": "folderB",
+              "child": []
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Web",
+          "iconA": "folderE",
+          "deco": "browser",
+          "child": [
+            {
+              "type": "folder",
+              "name": "At",
+              "iconA": "folderB",
+              "col": "#F9B31E",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Js",
+              "iconA": "folderB",
+              "child": []
+            },
+            {
+              "type": "folder",
+              "name": "Style",
+              "iconA": "folderB",
+              "child": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "setting": [
+    {
+      "name": "Tuto"
+    }
+  ],
+  "appId": "com.whatsup.artefact",
+  "designState": {
+    "main_js": {
+      "height": 431,
+      "width": 500,
+      "dark": false
+    },
+    "main_at": {
+      "height": 675,
+      "width": 849,
+      "dark": false
+    },
+    "maxime_at": {
+      "height": 82,
+      "width": 158,
+      "dark": false
+    },
+    "App_at": {
+      "height": 594,
+      "width": 326,
+      "dark": false
+    },
+    "Page2_at": {
+      "height": 431,
+      "width": 500,
+      "dark": false
+    },
+    "Page1_at": {
+      "height": 640,
+      "width": 305,
+      "dark": false
+    },
+    "ChatMessage_at": {
+      "height": 85,
+      "width": 500,
+      "dark": true
+    }
+  },
+  "icon": "file:///C:/Users/DannickStark/Downloads/abstract-2468874_1920.jpg"
+}

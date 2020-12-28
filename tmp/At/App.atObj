@@ -1,0 +1,14 @@
+Data tab = "tab-1"
+	
+Computed fabVisible () { 
+	switch(this.tab){
+		case 'tab-0':
+			return false;
+		case 'tab-1':
+			return true;
+		case 'tab-2':
+			return false;
+		case 'tab-3':
+			return false;
+	}
+}

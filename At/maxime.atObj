@@ -1,0 +1,5 @@
+Property color = "red"
+	Data counter = 10
+	Method manouDoSomething () { 
+	this.counter ++
+}

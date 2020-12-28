@@ -1,0 +1,136 @@
+
+Item{
+  id: "item0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  child: [
+    AppBar{
+      id: "appbar0",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      color: "#0cad54",
+      title: "WhatsApp",
+      dark: true,
+      tabsTitle: [
+        "",
+        "DISC.",
+        "STATUT",
+        "APPELS"
+      ],
+      icons: [
+        "ion-md-camera"
+      ],
+      sliderColor: "#fff",
+      bar: [
+        Row{
+          id: "rowappbar0undefined",
+          width: "auto",
+          height: "auto",
+          y: 0,
+          child: [
+            Button{
+              id: "buttonrowappbar0undefined1",
+              width: 40,
+              height: 35,
+              x: 0,
+              y: 0,
+              flat: true,
+              fab: true,
+              icon: "ion-md-search",
+              dark: true,
+              color: "#fff",
+              fontSize: 25
+            },
+            Button{
+              id: "buttonrowappbar0undefined12",
+              width: 40,
+              height: 35,
+              x: 0,
+              y: 0,
+              flat: true,
+              fab: true,
+              icon: "ion-md-more",
+              dark: true,
+              color: "#fff",
+              fontSize: 25
+            }
+          ],
+          right: 0
+        }
+      ],
+      model: "<#tab#>",
+      grow: true,
+      child: [
+        Object{
+          id: "page1appbar01",
+          width: 100,
+          x: 0,
+          name: "Page1",
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 100
+        },
+        Object{
+          id: "page2appbar03",
+          width: 100,
+          x: 0,
+          y: 0,
+          name: "Page2",
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 200
+        },
+        Object{
+          id: "page3appbar05",
+          width: 100,
+          x: 0,
+          y: 0,
+          name: "Page3",
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 0
+        },
+        Object{
+          id: "page4appbar07",
+          width: 100,
+          x: 0,
+          y: 0,
+          name: "Page4",
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 0
+        }
+      ],
+      rightAlign: true
+    },
+    Button{
+      id: "buttonitem03",
+      width: 55,
+      height: 55,
+      right: 20,
+      bottom: 20,
+      fab: true,
+      icon: "ion-ios-chatboxes",
+      color: "#fff",
+      backgroundColor: "#0cad54",
+      fontSize: 40,
+			modelIf: "<#fabVisible#>"
+    }
+  ],
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0
+},
